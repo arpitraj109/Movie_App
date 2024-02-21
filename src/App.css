@@ -1,0 +1,222 @@
+.main-page
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.home-h1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.home
+{
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
+
+.water-mark
+{
+    text-align: center;
+    
+}
+.home button
+{
+    height: 225px;
+    font-size: 90px;
+    border-radius: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.home button:hover
+{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+.mode-btn {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    float: right;
+    display: flex;
+    cursor: pointer;
+    padding-right: 10px;
+    color: #333; 
+    transition: color 0.3s, background-color 0.3s;
+}
+/* .mode-btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+body.dark-theme .mode-btn {
+    color: #fff; /* Color for dark theme */
+/* } */
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+    align-items: center;
+   
+}
+
+.navbar-links
+{
+    display: flex;
+    justify-content: space-around;
+    width: 510px;
+    gap: 8px;
+}
+.navbar-links li
+{
+    background-color: rgb(185, 185, 243);
+    padding: 5px;
+    border: black 2px solid;
+    border-radius: 7px;
+    list-style-type: none;
+    transition: transform  0.1s ease-in-out;
+}
+.navbar-links li:hover{
+    transform: scale(1.2);
+}
+.navbar-links li a{
+    
+    color: darkblue;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.navbar-links li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+
+}
+.movies-list
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+    gap: 10px;
+    
+}
+.card
+{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-color: gold;
+}
+.card img
+{
+    border-radius: 15px;
+    height: 188px;
+    width: 200px;
+}
+.card li{
+    list-style-type: none;
+}
+.card h2{
+    color: pink;
+    display: grid;
+}
+.card section
+{
+    gap: 20px;
+}
+.vote{
+    float: left;
+
+}
+.date{
+    display: flex;
+    float: right;
+}
+.heart{
+    
+}
+.heart-active
+{
+    color: red;
+    height: 20px;
+    width: 20px;
+}
+.search-btn
+{
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    justify-content: center;
+    
+}
+
+.search-btn input
+{
+    width: 250px;
+    height: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+.search-btn button
+{
+    border: 1px solid white;
+    background-color: white;
+    transition: transform ease-in-out 0.2s;
+}
+.search-btn button:hover
+{
+   cursor: pointer;
+   transform: scale(1.4);
+   
+}
+.movie-button-sorting-menu
+{
+    position: absolute;
+    display: grid;
+    flex-direction: column;
+    float: left;
+    padding-left: 25px;
+    z-index: 1000;
+    
+}
+.hamburger-menu
+{
+    font-size: 30px;
+    padding-left: 20px;
+    width: 30px;
+    
+}
+.buttons
+{
+    margin-bottom: 14px;
+    font-size: 20px;
+    width: 210px;
+    height: 73px;
+    border-radius: 20px;
+}
+.buttons1
+{
+    margin-top: 25px;
+    margin-bottom:  14px;
+    font-size: 20px;
+    width: 210px;
+    height: 73px;
+    border-radius: 20px;
+}
+
+.not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
